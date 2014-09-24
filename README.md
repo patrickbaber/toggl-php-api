@@ -24,3 +24,4 @@ To Do
 
 - toggl API support
 - Full toggl Report API support. It's only tested in really simple cases.
+- documentation, better "usage" passage

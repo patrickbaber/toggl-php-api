@@ -402,11 +402,6 @@ class TogglClient {
 		$this->setResponseBody($body);
 		$this->setResponseHeader($header);
 
-
-		echo '<pre>';
-		var_dump(json_decode($body));
-		echo '</pre>';
-
 		//return error
 		if ($error = $this->getErrorObject()) {
 			$this->setErrorArray($error);
